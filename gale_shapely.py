@@ -45,6 +45,7 @@ def stableMatching(n, mpref, wpref):
                 mpart[man]='free'
                 wpart[women]=man_old
                 #print(mpart,wpart)
+              
                 break
           if b==1:
             b=0
