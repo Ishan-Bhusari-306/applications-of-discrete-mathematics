@@ -5,7 +5,7 @@ def stableMatching(n, mpref, wpref):
   while count>0:
     #going through one man at a time 
     for man in range(n):
-      #if the current man is free
+      
       #print("this one goes for the man number ",man )
     
       if mpart[man]=='free':
@@ -13,7 +13,7 @@ def stableMatching(n, mpref, wpref):
         for W in range(n):
           women=mpref[man][W]
           #print("the women in the man number ",man,"preference list is ",women)
-          # here ive changed line 34 from wpart[W] -> wpart[women]
+         
         
           if wpart[women]=='free':
             #print("women ",women, "is free for man number ",man )
