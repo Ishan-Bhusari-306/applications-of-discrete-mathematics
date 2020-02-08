@@ -1,7 +1,3 @@
-"""
-Combination (order does not matter) and Permutation (order matters)
-"""
-
 # Rule of sum
 print(['Alice', 'Bob', 'Charlie']  + [0, 1, 2, 3, 4])
 
